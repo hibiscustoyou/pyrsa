@@ -15,8 +15,7 @@ if __name__ == '__main__':
     测试使用文件
     """
     rsakey = RsaKey()
-    modulus = "AOQfMKCLOREHpMnwSqWq2yuEO/m9KlUfHpqHoqkU+zpTXW59LdkE35N5pVpaggxZZxX+VtLiZTa+" \
-              "pae4iWP8hWQm68aeVNus1WBlVexsZllVlhGWmKTqPZHpU//d/XwXrm81IR5drosuPaJf1WgEQV6T3tuYxcoj81jfg8qm4HIL"
+    modulus = '"AIGSfrdb8K42HCxY9UAsfOPn4sh7A7VVeiUOS+IaAt6tTcf99mtiN1Q7jIcCr3Hk9Vz4tkiOwxub4zNrUU8PY6H6Oj6/TYVFWYy6NBJeREe6RDMNBMorn+sABZ/2JLLi+mTSKe5d6HvPsROtMLvD+TBUnJr9mDcOvPrLZwY1YXkd"'
     exponent = 'AQAB'
     rsakey.set_public(Base64().b64tohex(modulus), Base64().b64tohex(exponent))
     rr = rsakey.rsa_encrypt('1234567890')

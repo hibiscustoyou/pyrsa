@@ -48,7 +48,7 @@ class RsaKey:
     def pkcs1pad2(self, s, n):
         if n < len(s) + 11:
             print("Message too long for RSA")
-            return None
+            exit()
         ba = {}
         i = len(s) - 1
         while i >= 0 and n > 0:
