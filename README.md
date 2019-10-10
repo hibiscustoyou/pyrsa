@@ -13,9 +13,11 @@ pip install PyRsa
 使用 RsaKey 模块
 
 由于本模块是面向正方教务的加密，因此 modulus 长度应为 172；如果单纯是加密着玩的话，那么 modulus 与 pre_psw 两个参数的长度则有所限制，大概就是
-$$
+
+```
 modulus = int(psw / 3) + 15 + psw
-$$
+```
+
 嘛，谁会这么无聊干这事儿呢
 
 ```
