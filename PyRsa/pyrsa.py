@@ -113,6 +113,6 @@ if __name__ == '__main__':
     m = "AKRB6FwmOe0hE9Uo6LMKoDE5U9JU9lH1v8Uv7ATjRj2W+aTPlR9Hfm8fR782pzGwDsTD4Yr7tBHQ1cuEnGrqrJn5HuPiLqmSg4Z/AwS+Rq8eE7T+ZaGoUtpqvcoSffSJOW29RNVMwT391ona/+eK5B3RkC9WaJFYiZai7FiQDeXT"
     e = 'AQAB'
     rsa.set_public(Base64().b64tohex(m), Base64().b64tohex(e))
-    rr = rsa.rsa_encrypt('754733.t')
+    rr = rsa.rsa_encrypt('1234567890')
     enpsw = Base64().hex2b64(rr)
     print(enpsw)
