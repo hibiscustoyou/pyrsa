@@ -30,3 +30,4 @@ modulus = int(psw / 3) + 15 + psw
 >>> en_psw = Base64().hex2b64(rsakey.encrypt(pre_psw))
 ```
 
+具体新版教务的模拟登陆使用可参考 https://blog.csdn.net/qq_40772371/article/details/102566840
