@@ -8,7 +8,7 @@ Software  : PyCharm
 
 import time
 import random
-from PyRsa.tools import unsigned_right_shift
+from .tools import unsigned_right_shift
 
 
 class ArcFour:

@@ -7,7 +7,7 @@ Software  : PyCharm
 """
 
 import math
-from PyRsa.tools import unsigned_right_shift
+from .tools import unsigned_right_shift
 
 
 class Classic:
