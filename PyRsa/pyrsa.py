@@ -8,9 +8,9 @@ Software  : PyCharm
 
 
 import binascii
-from PyRsa.pyrng import SecureRandom
-from PyRsa.pyjsbn import BigInteger
-from PyRsa.pyb64 import Base64
+from .pyrng import SecureRandom
+from .pyjsbn import BigInteger
+from .pyb64 import Base64
 
 
 class RsaKey:
